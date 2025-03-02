@@ -1,15 +1,12 @@
 [project]
-name = "python-template"
+name = "youtube-downloader"  # Descriptive name
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A Flask-based YouTube video downloader"
+authors = ["Your Name <you@example.com>"]  # Replace with your details
 requires-python = ">=3.11"
 dependencies = [
-    "face-recognition",
-    "opencv-python",
-    "numpy",
-    "transformers>=4.49.0",
-    "turtles>=1.0.0",
-    "pytube",
     "flask",
+    "yt-dlp",  # Corrected from "pytube"
+    # Optional: "numpy" if needed elsewhere, otherwise remove
+    # "numpy",
 ]
